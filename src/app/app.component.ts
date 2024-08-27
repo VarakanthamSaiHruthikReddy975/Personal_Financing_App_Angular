@@ -18,6 +18,7 @@ import { UserComponent } from './user/user.component';
 import { UserManagementComponent } from './user-management/user-management.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UserSettingsComponent } from './user-settings/user-settings.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @Component({
   selector: 'app-root',
@@ -41,7 +42,8 @@ import { UserSettingsComponent } from './user-settings/user-settings.component';
             UserManagementComponent, 
             UserProfileComponent, 
             UserProfileComponent, 
-            UserSettingsComponent],
+            UserSettingsComponent,
+            DashboardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
